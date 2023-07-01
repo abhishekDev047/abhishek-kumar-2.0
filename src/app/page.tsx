@@ -1,13 +1,11 @@
+import Homepage from "./Components/Homepage";
 
-export default function Home() {
+export default function page() {
   return (
   <>
-  
     <div>
-      Hello i am working fine
-      
+     <Homepage/>
     </div>
-
   </>
   )
 };
