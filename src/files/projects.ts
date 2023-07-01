@@ -2,6 +2,15 @@ const projects:object[] =
 
 [
     {
+        "name": "Music-App",
+        "type": "A simple music search app",
+        "technologies": "Next.js + tailwindcss + bootstrap and Typescript",
+        "description": "This is a simple music search app powered by the spotify api. Here you can search for songs,artists and albums , and you also can add songs to  your favourite list. ",
+        "link": "https://music-app-sigma-fawn.vercel.app/",
+        "source": "https://github.com/abhishekDev047/Music-app",
+        "img": "/images/music-app.png"
+      },
+    {
         "name": "Kilogram",
         "type": "Social Media site",
         "technologies": "Next.js & tailwindcss",

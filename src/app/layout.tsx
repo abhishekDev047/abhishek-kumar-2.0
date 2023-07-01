@@ -1,6 +1,9 @@
-import Navbar from './Components/Navbar';
+// "use client";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import { ReduxProvider } from '@/redux/features/Provider';
+import NavBar from './Components/NavBar';
 
 
 export const metadata = {
@@ -9,8 +12,8 @@ export const metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: {
+  children
+}:{
   children: React.ReactNode
 }) {
   return (
@@ -18,11 +21,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
       <header>
-        <Navbar/>
+        <NavBar/>
       </header>
 
         <section>
-           <div>
+           <div className='mt-20'>
           {children}
         </div>
         </section>
