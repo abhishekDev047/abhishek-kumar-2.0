@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function NavBar() {
   return (
     <div className=''>
-     <Navbar expand="md" fixed="top" className=" bg-body-tertiary h-20 ">
+     <Navbar expand="md" fixed="top" className=" bg-body-tertiary h-20 shadow-lg ">
       <Container>
         <Navbar className="mr-4 text-xl md:text-3xl  "> <Link href={"/"}>Abhishek</Link></Navbar>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
