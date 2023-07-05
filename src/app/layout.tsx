@@ -23,7 +23,7 @@ export default function RootLayout({
         <NavBar/>
       </header>
 
-        <section>
+        <section className='mainbody'>
            <div className='mt-20'>
           {children}
         </div>
