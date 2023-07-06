@@ -10,7 +10,7 @@ import Tooltip from 'react-bootstrap/Tooltip';
 function Items(props:any) {
   return (
     <Col>
-          <Card>
+          <Card className='bg-gray-50  text-center shadow-md'>
             <div className='items-center'>
                 <Image 
                    layout='intrinsic'
@@ -43,7 +43,7 @@ function Items(props:any) {
             </Tooltip>
           }
         >
-          <Link href={props.rode} target='blank' className='text-3xl'> <FaGithubSquare/> </Link>
+          <Link href={props.rode} target='blank' className='text-3xl hover:text-violet-700'> <FaGithubSquare/> </Link>
         </OverlayTrigger>
                   </p>
               <p className=' mx-3'>
@@ -55,7 +55,7 @@ function Items(props:any) {
             </Tooltip>
           }
         >
-          <Link href={props.pink} target='blank' className='text-3xl'> <FaGlobe/> </Link>
+          <Link href={props.pink} target='blank' className='text-3xl hover:text-violet-700'> <FaGlobe/> </Link>
         </OverlayTrigger>
                   </p>
               </div>

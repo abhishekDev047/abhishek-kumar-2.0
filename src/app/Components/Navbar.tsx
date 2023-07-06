@@ -5,6 +5,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { FaUserAstronaut } from "react-icons/fa";
+import { SiGooglemessages } from "react-icons/si";
 
 function NavBar() {
   return (
@@ -20,11 +22,9 @@ function NavBar() {
               /></Link></Navbar>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className=" bg-gray-50 me-auto items-center">
-            <Nav className="mx-4 text-xl md:text-3xl my-3 lg:my-auto"> <Link href={"/projects"}>
-             projects
-              </Link> </Nav>
-            <Nav className="mx-4 text-xl md:text-3xl my-3 lg:my-auto"> <Link href={"/about"}> About Me</Link></Nav>
+          <Nav className=" bg-gray-50 me-auto items-center md:w-full md:items-end md:justify-end">
+            <Nav className="mx-4 text-2xl md:text-4xl my-3 lg:my-auto"> <Link href={"/about"}> <i className='text-orange-600 hover:text-violet-600'><FaUserAstronaut/></i> </Link></Nav>
+            <Nav className="mx-4 text-2xl md:text-4xl my-3 lg:my-auto"> <Link href={"/contact"}> <i className='text-orange-600 hover:text-violet-600'><SiGooglemessages/></i> </Link></Nav>
           </Nav>
         </Navbar.Collapse>
       </Container>

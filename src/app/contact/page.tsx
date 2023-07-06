@@ -1,10 +1,10 @@
 import React from 'react'
-import Projects from './Components/Projects';
+import Contact from './Components/Contact';
 
 function page() {
   return (
     <div>
-      <Projects/>
+        <Contact/>
     </div>
   )
 }
