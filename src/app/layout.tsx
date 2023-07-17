@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
 import { ReduxProvider } from '@/redux/features/Provider';
 import NavBar from './Components/NavBar';
+import Footer from './Components/Footer';
 
 
 export const metadata = {
@@ -29,7 +30,8 @@ export default function RootLayout({
         </div>
         </section>
        
-        <footer>
+        <footer className='text-lg mt-10 w-full'>
+          <Footer/>
         </footer>
         </body>
     </html>

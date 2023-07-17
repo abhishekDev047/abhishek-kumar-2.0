@@ -23,9 +23,18 @@ const text5 = ``;
   
   return (
     <div className='flex flex-col items-center justify-center text-xl'>
-        <section id='homehead' className='flex relative h-[600px] w-full flex-col sm:flex-row items-center justify-center '>
+        <section id='homehead' className='flex relative h-[800px] w-full flex-col items-center justify-center '>
         <div className='text-black text-center w-full px-2 flex flex-col' id='intro'>
-         <span className="text-2xl sm:text-4xl font-semibold">Frontend Web Developer </span><span> I love to code beautiful simple websites</span>
+         <span className="text-2xl sm:text-4xl lg:text-5xl font-semibold my-4">Frontend Web Developer </span><span className='text-xl'> I love to code beautiful simple websites</span>
+        </div>
+        <div className='my-5'>
+          <Image 
+          className='rounded-full'
+          src={"/images/Dev.jpg"}
+          height={200}
+          width={250}
+          alt='Developer'
+          />
         </div>
         </section>
         <div className='px-10'>
@@ -47,7 +56,7 @@ const text5 = ``;
 
         <section className='flex flex-col items-center px-8 relative bottom-20 bg-transparent w-full h-auto z-10 overflow-hidden  py-1'>
         <div className='flex flex-col items-center w-auto h-auto px-10 md:px-20 py-10 bg-gray-50 rounded-xl shadow-xl'>
-              <div className='md:text-6xl text-2xl rounded-full bg-orange-600 p-3'>
+              <div className='md:text-6xl text-2xl rounded-full bg-[#6e07f3] text-gray-100 p-3'>
                 <BsFillFileEarmarkCodeFill/>
               </div>
               <div className='md:text-3xl text-lg text-center font-semibold my-2 underline'>

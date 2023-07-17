@@ -21,7 +21,7 @@ function Tools(props:any) {
             <section className={props.classname}>
                 <div className='text-4xl flex flex-row px-10 my-2 flex-wrap w-full justify-center items-center ' >
                             <i>
-                                hello 
+                                some other things 
                             </i>
                         </div>
             </section>
