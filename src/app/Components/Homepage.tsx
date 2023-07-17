@@ -7,6 +7,7 @@ import { BsFillFileEarmarkCodeFill } from "react-icons/bs";
 import Tools from './Tools';
 import Button from 'react-bootstrap/Button';
 import Projects from './Projects';
+import TopMove from './TopMove';
 
 function Homepage() {
 const text1 = "Hello and welcome! It's a pleasure to meet you.";
@@ -22,7 +23,7 @@ const text5 = ``;
   }, []);
   
   return (
-    <div className='flex flex-col items-center justify-center text-xl'>
+    <div className='flex flex-col items-center justify-center text-xl w-full'>
         <section id='homehead' className='flex relative h-[800px] w-full flex-col items-center justify-center '>
         <div className='text-black text-center w-full px-2 flex flex-col' id='intro'>
          <span className="text-2xl sm:text-4xl lg:text-5xl font-semibold my-4">Frontend Web Developer </span><span className='text-xl'> I love to code beautiful simple websites</span>
@@ -80,7 +81,7 @@ const text5 = ``;
 
         <section className='w-full h-auto my-10 flex flex-col items-center justify-center'>
 
-          <div className='text-3xl font-bold underline text-[#6e07f3] my-10'>
+          <div id='projects' className='text-3xl font-bold underline text-[#6e07f3] my-10'>
             My Projects
           </div>
 
@@ -90,6 +91,10 @@ const text5 = ``;
           <div className='items-center justify-center my-5'>
           <Button className='rounded-2xl  text-xl sm:text-2xl ' variant="outline-primary"><Link target='blank' href={"https://github.com/abhishekDev047?tab=repositories"}>Visit Github for more</Link></Button>
           </div>
+        </section>
+
+        <section className='w-full'>
+          <TopMove link1={"#homehead"} top={"visible mx-2"} project={"visible mx-2"} prolink={'#projects'} />
         </section>
 
         <div className='border border-t-2 border-slate-600 w-full h-0 my-3'>

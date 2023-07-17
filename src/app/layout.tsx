@@ -25,7 +25,7 @@ export default function RootLayout({
       </header>
 
         <section className='mainbody'>
-           <div className='mt-20'>
+           <div className=''>
           {children}
         </div>
         </section>
