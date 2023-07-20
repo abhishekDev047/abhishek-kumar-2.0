@@ -70,7 +70,7 @@ const text5 = ``;
                 {text4}
               </div>
               <div className='w-full'>
-                <Tools classname={'hidden'}/>
+                <Tools show={'hidden'}/>
               </div>
         </div>
         </section>
