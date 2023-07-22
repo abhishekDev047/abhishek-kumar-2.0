@@ -3,7 +3,7 @@ import ContactTable from './ContactTable';
 
 
 function Footer() {
-    const zlatanq = `"I don't believe in luck. I believe in hard work and dedication. That's what creates luck. I feel that the more I prepare, the luckier I become."`;
+    const zlatanq = `" The older I get, the better I get. Like red wine. "`;
     const zlatan = ` - Zlatan Ibrahimovic `;
     const bye = `Thank you for visiting my portfolio. Goodbye and stay inspired!`;
   return (
