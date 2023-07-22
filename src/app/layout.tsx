@@ -2,8 +2,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
 // import { ReduxProvider } from '@/redux/features/Provider';
-import NavBar from './Components/NavBar';
+
 import Footer from './Components/Footer';
+import NavBar from './Components/NavBar';
 
 
 export const metadata = {
