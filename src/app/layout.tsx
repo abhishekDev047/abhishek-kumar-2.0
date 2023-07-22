@@ -1,7 +1,7 @@
 // "use client";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
-import { ReduxProvider } from '@/redux/features/Provider';
+// import { ReduxProvider } from '@/redux/features/Provider';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ReduxProvider>
+    // <ReduxProvider>
     <html lang="en">
       <body>
       <header>
@@ -35,6 +35,6 @@ export default function RootLayout({
         </footer>
         </body>
     </html>
-    </ReduxProvider>
+    // </ReduxProvider>
   )
 };
